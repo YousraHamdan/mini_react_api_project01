@@ -1,0 +1,100 @@
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+.game-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.game-card {
+background: rgb(255, 253, 253);
+color:rgb(179, 168, 84);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+cursor: pointer;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.game-card:hover {
+transform: translateY(-10px);
+background-color: rgb(179, 168, 84);
+color : rgb(194, 9, 9);
+}
+
+.game-image {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.game-details {
+padding: 15px;
+text-align: center;
+}
+
+.game-name {
+font-size: 1.2rem;
+margin: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+  }
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #e4e4e4;
+  color:rgb(194, 9, 9);
+}
+
+.nav-link:active {
+  background-color: #777;
+}
+
+
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+}
+
+
