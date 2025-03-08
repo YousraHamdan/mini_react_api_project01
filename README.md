@@ -1,7 +1,7 @@
 🎨 **UI Preview** :
-![preview](screenshots/preview.png)
+![preview](ui/preview.png)
 
-![all-games](screenshots/all-games.png)
+![all-games](ui/all-games.png)
 
 
 # Getting Started with Create React App
